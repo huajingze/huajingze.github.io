@@ -1,0 +1,39 @@
+# git命令
+unzip viki-master.zip 
+  326  git
+  327  ls
+  328  ls
+  329  echo "# huajingze.github.io" >> README.md
+  330  git init
+  331  git add README.md 
+  332  git commit -m "first commit"
+  333  git config --global user.email "huajingze@gmail.com"
+  334  git config --global user.name "huajingze"
+  335  git commit -m "first commit"
+  336  git remote add origin https://github.com/huajingze/huajingze.github.io.git
+  337  git push -u origin master
+  338  git push -u origin master
+  339  git clone https://github.com/username/username.github.io
+  340  git clone https://github.com/huajingze/huajingze.github.io
+  341  ls
+  342  cd huajingze.github.io/
+  343  echo "hello world" > index.html
+  344  git add --all
+  345  git commit -m "Initial commit"
+  346  git push -u origin master
+  347  git add --all
+  348  git commit -m "second commit"
+  349  git push -u origin master
+  350  git commit -m "3rd commit"
+  351  git status
+  352  git add index.html 
+  353  git commit -m "3rd commit"
+  354  git status
+  355  git push
+  356  git status
+  357  git add index.html 
+  358  git commit
+  359  git stgatus
+  360  git status
+  361  git add index.html viki.html 
+  362  git commit "4"

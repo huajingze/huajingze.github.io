@@ -2,22 +2,22 @@
     "navigation":
     [
         {
-            "text": "Home",
+            "text": "首页",
             "target": "index.md",
             "toc": false
         },
         {
             "text": "Notebook",
-            "target": "_vnote.json",
+            "target": "./huajingze/_vnote.json",
             "navi": true
         }
     ],
     "actions":
     [
         {
-            "text": "Viki",
+            "text": "Home",
             "icon": "css/viki_white.svg",
-            "target": "https://tamlok.github.io/viki/"
+            "target": "https://huajingze.github.io/index.html#!index.md"
         }
     ]
 }
