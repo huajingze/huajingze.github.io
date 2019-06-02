@@ -1,4 +1,5 @@
 # redis简介
+# redis简介
 ## 简介
 Redis 是Remote Dictionary Server（远程字典服务器）的缩写，是一个开源的高性能键值对数据库，它提供多种键值数据类型来适应不同场景下的存储需求，并借助许多高层级的接口能够胜任如缓存、队列系统等不同的角色。
 Redis是一款开源的，基于BSD许可的，高级键值(key-value)缓存(cache)和存储(store)系统，属于nosql、数据结构型服务器。  
