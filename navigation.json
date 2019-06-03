@@ -8,7 +8,7 @@
         },
         {
             "text": "Notebook",
-            "target": "./huajingze/vnote.json",
+            "target": "./huajingze/_vnote.json",
             "navi": true
         }
     ],
