@@ -9,7 +9,7 @@
         {
             "text": "Notebook",
             "target": "/huajingze/home/3rdTool/redis/_vnote.json",
-            "navi": true
+            "navi": true,
             "navi_index": "/huajingze/home/3rdTool/redis/redis简介.md"
         }
     ],
