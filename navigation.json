@@ -12,6 +12,12 @@
             "navi": true,
             "navi_index": "./huajingze/home/3rdTool/redis/redis%E7%AE%80%E4%BB%8B.md"
         }
+                {
+            "text": "NoteTest",
+            "target": "./huajingze/home/_vnote.json",
+            "navi": true,
+            "navi_index": "./huajingze/home/openShift-VPN.md"
+        }
     ],
     "actions":
     [
