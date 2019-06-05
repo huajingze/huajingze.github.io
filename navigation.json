@@ -8,9 +8,9 @@
         },
         {
             "text": "Notebook",
-            "target": "./huajingze/home/3rdTool/redis/_vnote.json",
+            "target": "huajingze/home/3rdTool/_vnote.json",
             "navi": true,
-            "navi_index": "./huajingze/home/3rdTool/redis/redis%E7%AE%80%E4%BB%8B.md"
+            "navi_index": "redis/redis%E7%AE%80%E4%BB%8B.md"
         },
         {
             "text": "NoteTest",
