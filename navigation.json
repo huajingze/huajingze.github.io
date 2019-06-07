@@ -22,7 +22,7 @@
             "text": "TestMd",
             "target": "3rdTool/redis/redis_introduce.md",
             "toc": false
-        },
+        }
     ],
     "actions":
     [
