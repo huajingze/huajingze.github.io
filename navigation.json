@@ -17,7 +17,12 @@
             "target": "./huajingze/home/_vnote.json",
             "navi": true,
             "navi_index": "./huajingze/home/openShift-VPN.md"
-        }
+        },
+        {
+            "text": "TestMd",
+            "target": "3rdTool/redis/redis_introduce.md",
+            "toc": false
+        },
     ],
     "actions":
     [
