@@ -15,6 +15,7 @@
         {
             "text": "TestMd",
             "target": "3rdTool/redis/redis_introduce.md",
+            "navi":true,
             "toc": false
         }
     ],
