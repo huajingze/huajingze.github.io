@@ -1,5 +1,6 @@
 {
     "brand": "VBlog",
+    "brand_icon": "css/viki_white.svg",
     "title": "VBlog - A simple Wiki page in Markdown",
     "favicon": "https://github.com/tamlok/viki/raw/master/resources/viki.ico",
     "footer": "",
