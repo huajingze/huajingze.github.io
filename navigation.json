@@ -7,13 +7,13 @@
             "toc": false
         },
         {
-            "text": "Notebook",
+            "text": "3rdTool",
             "target": "3rdTool/_vnote.json",
             "navi": true,
             "navi_index": "redis/redis_introduce.md"
         },
         {
-            "text": "TestMd",
+            "text": "Language",
             "target": "3rdTool/redis/redis_introduce.md",
             "navi":true,
             "toc": false
