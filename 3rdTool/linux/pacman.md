@@ -66,6 +66,7 @@ pacman -Qo /path/to/a/file
 要罗列所有不再作为依赖的软件包(孤立orphans)：  
 ```
 pacman -Qdt
+yaourt -Qdt            这个命令更好用
 ```
 Pacman使用-Q参数来查询本地软件包数据库。参见：  
 ```
