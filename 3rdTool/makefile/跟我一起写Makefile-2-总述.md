@@ -1,5 +1,5 @@
 # 跟我一起写Makefile-2-总述
-[原谅链接：https://blog.csdn.net/haoel/article/details/2888](https://blog.csdn.net/haoel/article/details/2888%20)
+[原谅链接：https://blog.csdn.net/haoel/article/details/2888](https://blog.csdn.net/haoel/article/details/2888)
 
 Makefile 总述  
 
