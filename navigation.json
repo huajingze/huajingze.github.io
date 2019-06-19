@@ -11,7 +11,7 @@
             "target": "program/java/_vnote.json",
             "navi":true,
             "toc": false,
-            "navi_index": "program/java/java编译选项.md"
+            "navi_index": "program/java/javac编译选项.md"
         },
         {
             "text": "3rdTool",
