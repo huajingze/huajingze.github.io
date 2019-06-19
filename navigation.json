@@ -8,10 +8,9 @@
         },
         {
             "text": "语言类",
-            "target": "program/java/_vnote.json",
+            "target": "program/_vnote.json",
             "navi":true,
-            "toc": false,
-            "navi_index": "program/java/javac编译选项.md"
+            "navi_index": "java/javac编译选项.md"
         },
         {
             "text": "3rdTool",

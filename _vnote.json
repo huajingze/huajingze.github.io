@@ -8,6 +8,9 @@
     "sub_directories": [
         {
             "name": "3rdTool"
+        },
+        {
+            "name": "program"
         }
     ],
     "tags": [
