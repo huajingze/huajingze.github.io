@@ -8,9 +8,10 @@
         },
         {
             "text": "语言类",
-            "target": "3rdTool/redis/redis_introduce.md",
+            "target": "program/java/_vnote.json",
             "navi":true,
-            "toc": false
+            "toc": false,
+            "navi_index": "program/java/java编译选项.md"
         },
         {
             "text": "3rdTool",
