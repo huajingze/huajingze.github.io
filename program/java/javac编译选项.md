@@ -40,6 +40,24 @@ javac
 
 关于这个option所对应的类就是Option.接下来我们就来看一下这个类。
 
+## 常用及禁用选项
+### 常用项
+```
+-g                         生成所有调试信息
+-classpath <路径>            指定查找用户类文件和注释处理程序的位置
+-cp <路径>                   指定查找用户类文件和注释处理程序的位置
+-sourcepath <路径>           指定查找输入源文件的位置
+-source <发行版>              提供与指定发行版的源兼容性
+-target <发行版>              生成特定 VM 版本的类文件
+```
+
+### 禁用项
+```-g:none                    不生成任何调试信息
+-g:{lines,vars,source}     只生成某些调试信息
+-nowarn                    不生成任何警告
+-Xlint:{auxiliaryclass,cast}  仅生成 部分编码告警
+```
+
 ## 解析
 Option类是一个枚举,代表javac的选项.处理命令行选项的特定选项是通过按顺序搜索此枚举的成员来标识的,找到第一个匹配的。   
 其中,Option又分为OptionKind,OptionGroup,ChoiceKind不同的类型.这三种也是枚举,定义如下：  
@@ -204,3 +222,8 @@ ChoiceKind --> 关于 选择的类型.
 |          @           |       javac.opt.arg.file       | javac.opt.arg.file             | STANDARD  | INFO        | null      | null                    | true          | 从文件读取选项和文件名,由CommandLine实现                        |
 |      sourcefile      |              null              | null                           | HIDDEN    | INFO        | null      | null                    | false         |                                                              |
 
+
+
+
+## 其它可学习链接
+[其它-1](https://www.cnblogs.com/wangpei/p/7084341.html)
