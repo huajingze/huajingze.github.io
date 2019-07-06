@@ -17,6 +17,12 @@
             "target": "3rdTool/_vnote.json",
             "navi": true,
             "navi_index": "redis/redis_introduce.md"
+        },
+                {
+            "text": "OS&Database",
+            "target": "OS&Database/_vnote.json",
+            "navi": true,
+            "navi_index": "OS/manjaro/1. 默认主题.md"
         }
 
     ],
