@@ -1,0 +1,113 @@
+# Sun Jul 21 21:07:04 CST 2019
+# Replay feature output
+# ---------------------
+# This file was built by the Replay feature of InstallAnywhere.
+# It contains variables that were set by Panels, Consoles or Custom Code.
+
+
+
+#验证响应文件
+#------------
+RUN_SILENT=true
+
+#选择安装文件夹
+#--------------
+USER_INSTALL_DIR=/opt/sybase
+
+#选择安装集
+#----------
+CHOSEN_FEATURE_LIST=fase_srv,fopen_client,fdblib,fjconnect70,fdbisql,fqptune,fsysam_util,fase_agent,fodbcl,fconn_python,fconn_perl,fconn_php,fscc_server
+CHOSEN_INSTALL_FEATURE_LIST=fase_srv,fopen_client,fdblib,fjconnect70,fdbisql,fqptune,fsysam_util,fase_agent,fodbcl,fconn_python,fconn_perl,fconn_php,fscc_server
+CHOSEN_INSTALL_SET=Typical
+
+#选择产品许可证类型
+#------------------
+SYBASE_PRODUCT_LICENSE_TYPE=developer
+
+#安装
+#----
+-fileOverwrite_/opt/sybase/sybuninstall/ASESuite/uninstall.lax=是
+
+#配置新服务器
+#------------
+SY_CONFIG_ASE_SERVER=true
+SY_CONFIG_BS_SERVER=true
+SY_CONFIG_XP_SERVER=true
+SY_CONFIG_JS_SERVER=true
+SY_CONFIG_SM_SERVER=true
+SY_CONFIG_WS_SERVER=false
+SY_CONFIG_SCC_SERVER=true
+SY_CONFIG_TXT_SERVER=false
+
+#配置新的 Adaptive Server
+#----------------------------------------
+SY_CFG_ASE_SERVER_NAME=DBSVR
+SY_CFG_ASE_PORT_NUMBER=5000
+SY_CFG_ASE_APPL_TYPE=MIXED
+SY_CFG_ASE_PAGESIZE=4k
+SY_CFG_ASE_PASSWORD=
+SY_CFG_ASE_MASTER_DEV_NAME=/opt/sybase/data/master.dat
+SY_CFG_ASE_MASTER_DEV_SIZE=400
+SY_CFG_ASE_MASTER_DB_SIZE=200
+SY_CFG_ASE_SYBPROC_DEV_NAME=/opt/sybase/data/sysprocs.dat
+SY_CFG_ASE_SYBPROC_DEV_SIZE=172
+SY_CFG_ASE_SYBPROC_DB_SIZE=172
+SY_CFG_ASE_SYBTEMP_DEV_NAME=/opt/sybase/data/sybsysdb.dat
+SY_CFG_ASE_SYBTEMP_DEV_SIZE=26
+SY_CFG_ASE_SYBTEMP_DB_SIZE=20
+SY_CFG_ASE_ERROR_LOG=/opt/sybase/ASE-15_0/install/DBSVR.log
+SY_CFG_ASE_PCI_ENABLE=false
+SY_CFG_ASE_PCI_DEV_NAME=$NULL$
+SY_CFG_ASE_PCI_DEV_SIZE=$NULL$
+SY_CFG_ASE_PCI_DB_SIZE=$NULL$
+SY_CFG_ASE_TEMP_DEV_NAME=/opt/sybase/data/tempdbdev.dat
+SY_CFG_ASE_TEMP_DEV_SIZE=100
+SY_CFG_ASE_TEMP_DB_SIZE=100
+SY_CFG_ASE_OPT_ENABLE=false
+SY_CFG_ASE_CPU_NUMBER=$NULL$
+SY_CFG_ASE_MEMORY=$NULL$
+SY_CFG_ASE_LANG=$NULL$
+SY_CFG_ASE_CHARSET=$NULL$
+SY_CFG_ASE_SORTORDER=$NULL$
+SY_CFG_ASE_SAMPLE_DB=false
+
+#配置新的 Backup Server
+#------------------------------------
+SY_CFG_BS_SERVER_NAME=DBSVR_BAK
+SY_CFG_BS_PORT_NUMBER=5001
+SY_CFG_BS_ERROR_LOG=/opt/sybase/ASE-15_0/install/DBSVR_BAK.log
+
+#配置新的 XP Server
+#----------------------------
+SY_CFG_XP_SERVER_NAME=DBSVR_XP
+SY_CFG_XP_PORT_NUMBER=5002
+SY_CFG_XP_ERROR_LOG=/opt/sybase/ASE-15_0/install/DBSVR_XP.log
+
+#配置新的 Job Scheduler
+#------------------------------------
+SY_CFG_JS_SERVER_NAME=DBSVR_JSAGENT
+SY_CFG_JS_PORT_NUMBER=4900
+SY_CFG_JS_MANAG_DEV_NAME=/opt/sybase/data/sybmgmtdb.dat
+SY_CFG_JS_MANAG_DEV_SIZE=75
+SY_CFG_JS_MANAG_DB_SIZE=75
+
+#配置自我管理
+#------------
+SY_CFG_SM_USER_NAME=sa
+SY_CFG_SM_PASSWORD=
+
+#Sybase Control Center - 配置自我发现服务适配器
+#----------------------------------------------------------------------
+SCC_SELFDISCOVERY_CONFIG_UDP_ADAPTOR=true
+SCC_SELFDISCOVERY_CONFIG_JINI_ADAPTOR=false
+SCC_SELFDISCOVERY_JINI_HOST_NAME=localhost
+SCC_SELFDISCOVERY_JINI_PORT_NUMBER=4160
+SCC_SELFDISCOVERY_JINI_HEART_BEAT_PERIOD=900
+
+#Sybase Control Center - 配置 RMI 端口
+#------------------------------------------------------------------
+SCC_RMI_PORT_NUMBER=9999
+
+#Sybase Control Center - Configure Administration Passwords
+#--------------------------------------------------------------------------------------------------------------------
+CONFIG_SCC_CSI_UAFADMIN_PWD=
